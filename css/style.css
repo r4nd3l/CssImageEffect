@@ -1,0 +1,115 @@
+body{
+  background: url('../img/wall.jpeg') no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; /* Fallback */
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content h2,
+.content p{
+  color: var(--gr-);
+  text-shadow: var(--text-sh-);
+}
+
+.box{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: url('../img/City_grey/img_02.jpg') no-repeat 50% 50%;
+  background-size: cover;
+  border-radius: 1em;
+  box-shadow: var(--shadow2-);
+}
+
+.content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.content a{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 1px solid var(--dc-);
+  text-decoration: none;
+  color: var(--dc-);
+  transition: 0.5s;
+  border-radius: 0.2em;
+}
+
+.content a:hover{
+  color: var(--sg-);
+  background: var(--dc-);
+}
+
+.box img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  transition: 0.5s;
+  background-size: cover;
+  border-radius: 1em;
+}
+
+.box:hover img{
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END */
